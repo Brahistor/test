@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Cozy Fireplace",
+    "thumbnail": "assets/thumbs/fire.png",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+  },
+  {
+    "title": "Calm Ocean Waves",
+    "thumbnail": "assets/thumbs/ocean.png",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+  },
+  {
+    "title": "Rainy Window",
+    "thumbnail": "assets/thumbs/rain.png",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
+  },
+  {
+    "title": "Forest Breeze",
+    "thumbnail": "assets/thumbs/forest.png",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  }
+]
