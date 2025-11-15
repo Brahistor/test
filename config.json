@@ -1,19 +1,82 @@
 {
-  "videos": [
-    {
-      "title": "Cozy Fireplace",
-      "thumbnail": "https://brahistor.github.io/test/thumbs/fire.png",
-      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+  "app_settings": {
+    "app_name": "FireTV Relax",
+    "version": 1,
+    "is_pro_enabled": true,
+
+    "onesignal": {
+      "enabled": true,
+      "app_id": "YOUR_ONESIGNAL_APP_ID"
     },
-    {
-      "title": "Calm Ocean Waves",
-      "thumbnail": "https://brahistor.github.io/test/thumbs/ocean.png",
-      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+
+    "mintegral": {
+      "enabled": true,
+      "app_id": "YOUR_MINTEGRAL_APP_ID",
+      "app_key": "YOUR_MINTEGRAL_APP_KEY",
+      "banner_unit": "YOUR_BANNER_UNIT_ID",
+      "interstitial_unit": "YOUR_INTERSTITIAL_UNIT_ID",
+      "rewarded_unit": "YOUR_REWARDED_UNIT_ID",
+      "clicks_before_ad": 3
     },
+
+    "amazon_iap": {
+      "enabled": true,
+      "remove_ads_sku": "remove_ads_product"
+    },
+
+    "more_apps_url": "https://your-website.com/more-apps"
+  },
+
+  "screensaver": {
+    "default_volume": 1,
+    "sleep_timer_default": 30
+  },
+
+  "categories": [
     {
-      "title": "Rainy Window",
-      "thumbnail": "https://brahistor.github.io/test/thumbs/rain.png",
-      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
+      "name": "Fireplace",
+      "thumbnail": "https://i.imgur.com/nt1TUhO.jpeg",
+      "videos": [
+        {
+          "title": "Relaxing Fireplace 1 Hour",
+          "video_url": "https://firebasestorage.googleapis.com/v0/b/fireplace.mp4",
+          "thumbnail": "https://i.imgur.com/XuK8RkT.jpeg"
+        },
+        {
+          "title": "Romantic Fireplace",
+          "video_url": "https://yourcdn.com/videos/fireplace2.mp4",
+          "thumbnail": "https://i.imgur.com/ycPf7Wk.jpeg"
+        }
+      ]
+    },
+
+    {
+      "name": "Nature",
+      "thumbnail": "https://i.imgur.com/LPZPThy.jpeg",
+      "videos": [
+        {
+          "title": "Rain & Thunder 1H",
+          "video_url": "https://yourcdn.com/videos/rain.mp4",
+          "thumbnail": "https://i.imgur.com/L8D3S48.jpeg"
+        },
+        {
+          "title": "Ocean Waves",
+          "video_url": "https://yourcdn.com/videos/ocean.mp4",
+          "thumbnail": "https://i.imgur.com/U3c1dWo.jpeg"
+        }
+      ]
+    },
+
+    {
+      "name": "Meditation",
+      "thumbnail": "https://i.imgur.com/rZ6Fw1y.jpeg",
+      "videos": [
+        {
+          "title": "Deep Meditation 1H",
+          "video_url": "https://yourcdn.com/videos/meditation1.mp4",
+          "thumbnail": "https://i.imgur.com/Vod1qJ4.jpeg"
+        }
+      ]
     }
   ]
 }
