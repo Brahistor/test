@@ -5,12 +5,12 @@
     "is_pro_enabled": true,
 
     "onesignal": {
-      "enabled": true,
+      "enabled": false,
       "app_id": "YOUR_ONESIGNAL_APP_ID"
     },
 
     "mintegral": {
-      "enabled": true,
+      "enabled": false,
       "app_id": "YOUR_MINTEGRAL_APP_ID",
       "app_key": "YOUR_MINTEGRAL_APP_KEY",
       "banner_unit": "YOUR_BANNER_UNIT_ID",
@@ -35,17 +35,17 @@
   "categories": [
     {
       "name": "Fireplace",
-      "thumbnail": "https://i.imgur.com/nt1TUhO.jpeg",
+      "thumbnail": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/05/16/birchwood-fireplace-nologo-1920x1080-10102017.jpg",
       "videos": [
         {
           "title": "Relaxing Fireplace 1 Hour",
-          "video_url": "https://firebasestorage.googleapis.com/v0/b/fireplace.mp4",
-          "thumbnail": "https://i.imgur.com/XuK8RkT.jpeg"
+          "video_url": "https://media.istockphoto.com/id/1415146020/video/cozy-relaxing-fireplace-tv-screen-saver-a-looping-clip-of-a-fireplace-log-fire.mp4?s=mp4-640x640-is&k=20&c=VMAnFssI_YflA22Ta8mg8YBzhpAtqU-ttOUN9mA4ctc=",
+          "thumbnail": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/05/16/birchwood-fireplace-nologo-1920x1080-10102017.jpg"
         },
         {
           "title": "Romantic Fireplace",
-          "video_url": "https://yourcdn.com/videos/fireplace2.mp4",
-          "thumbnail": "https://i.imgur.com/ycPf7Wk.jpeg"
+          "video_url": "https://media.istockphoto.com/id/1415146020/video/cozy-relaxing-fireplace-tv-screen-saver-a-looping-clip-of-a-fireplace-log-fire.mp4?s=mp4-640x640-is&k=20&c=VMAnFssI_YflA22Ta8mg8YBzhpAtqU-ttOUN9mA4ctc=",
+          "thumbnail": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/05/16/birchwood-fireplace-nologo-1920x1080-10102017.jpg"
         }
       ]
     },
