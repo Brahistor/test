@@ -1,80 +1,130 @@
 {
-  "app_settings": {
-    "app_name": "FireTV Relax",
+  "meta": {
     "version": 1,
-    "is_pro_enabled": true,
-
-    "onesignal": {
-      "enabled": false,
-      "app_id": "YOUR_ONESIGNAL_APP_ID"
-    },
-
-    "mintegral": {
-      "enabled": false,
-      "app_id": "YOUR_MINTEGRAL_APP_ID",
-      "app_key": "YOUR_MINTEGRAL_APP_KEY",
-      "banner_unit": "YOUR_BANNER_UNIT_ID",
-      "interstitial_unit": "YOUR_INTERSTITIAL_UNIT_ID",
-      "rewarded_unit": "YOUR_REWARDED_UNIT_ID",
-      "clicks_before_ad": 3
-    },
-
-    "amazon_iap": {
-      "enabled": true,
-      "remove_ads_sku": "remove_ads_product"
-    },
-
-    "more_apps_url": "https://your-website.com/more-apps"
+    "last_update": "2025-01-25",
+    "author": "RelaxApp Studio"
   },
 
-  "screensaver": {
-    "default_volume": 1,
-    "sleep_timer_default": 30
+  "app": {
+    "name": "Relax Screensaver",
+    "theme": {
+      "color_primary": "#000000",
+      "color_secondary": "#202020",
+      "accent": "#FF9800"
+    }
+  },
+
+  "features": {
+    "ads_enabled": true,
+    "iap_enabled": false,
+    "screensaver_enabled": true
+  },
+
+  "onesignal": {
+    "enabled": true,
+    "app_id": "YOUR_ONESIGNAL_APP_ID"
+  },
+
+  "ads": {
+    "general": {
+      "showAds": true,
+      "clicksBeforeInterstitial": 3,
+
+      "iron": {
+        "appKey": "IRON_SOURCE_APP_KEY",
+        "enableBN": true,
+        "enableIS": true,
+        "enableRV": true,
+        "userId": "default_user"
+      },
+
+      "banner": {
+        "size": "BANNER",
+        "position": "BOTTOM",
+        "autoLoad": true
+      },
+
+      "units": {
+        "interstitialPlacement": "DefaultInterstitial",
+        "rewardedPlacement": "DefaultRewardedVideo",
+        "bannerPlacement": "DefaultBanner"
+      }
+    },
+
+    "mobile": {
+      "clicksBeforeInterstitial": 4,
+      "banner": {
+        "size": "SMART",
+        "position": "BOTTOM"
+      }
+    },
+
+    "tablet": {
+      "clicksBeforeInterstitial": 3,
+      "banner": {
+        "size": "LARGE",
+        "position": "BOTTOM"
+      }
+    },
+
+    "tv": {
+      "clicksBeforeInterstitial": 2,
+      "banner": {
+        "size": "LARGE",
+        "position": "TOP"
+      }
+    },
+
+    "firetv": {
+      "clicksBeforeInterstitial": 2,
+      "banner": {
+        "size": "LARGE",
+        "position": "TOP"
+      }
+    }
+  },
+
+  "buttons": {
+    "share_text": "🔥 Relax with this amazing screensaver!",
+    "rate_url": "https://store.com/app/rate",
+    "more_apps_url": "https://store.com/apps"
   },
 
   "categories": [
     {
       "name": "Fireplace",
-      "thumbnail": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/05/16/birchwood-fireplace-nologo-1920x1080-10102017.jpg",
+      "thumbnail": "https://i.imgur.com/L8D3S48.jpeg",
       "videos": [
         {
-          "title": "Relaxing Fireplace 1 Hour",
-          "video_url": "https://cdn.pixabay.com/video/2024/02/20/201242-914943518_tiny.mp4",
-          "thumbnail": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/05/16/birchwood-fireplace-nologo-1920x1080-10102017.jpg"
+          "title": "Fireplace HD – 1 Hour",
+          "video_url": "https://cdn.example.com/fire1.mp4",
+          "thumbnail": "https://i.imgur.com/LPZPThy.jpeg",
+          "loop": true
         },
         {
-          "title": "Romantic Fireplace",
-          "video_url": "https://cdn.pixabay.com/video/2024/02/20/201242-914943518_tiny.mp4",
-          "thumbnail": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/05/16/birchwood-fireplace-nologo-1920x1080-10102017.jpg"
+          "title": "Cozy Fireplace",
+          "video_url": "https://cdn.example.com/fire2.mp4",
+          "thumbnail": "https://i.imgur.com/rZ6Fw1y.jpeg",
+          "loop": true
         }
       ]
     },
 
     {
       "name": "Nature",
-      "thumbnail": "https://i.imgur.com/LPZPThy.jpeg",
+      "thumbnail": "https://i.imgur.com/U3c1dWo.jpeg",
       "videos": [
         {
-          "title": "Rain & Thunder 1H",
-          "video_url": "https://drive.google.com/file/d/1y8-4lM64yHjeWlwCOPRwUC1Im4zlN5X4/view?usp=drive_link",
-          "thumbnail": "https://i.imgur.com/L8D3S48.jpeg"
+          "title": "Rain & Thunder",
+          "video_url": "https://cdn.example.com/rain.mp4",
+          "thumbnail": "https://i.imgur.com/Vod1qJ4.jpeg",
+          "loop": true
         },
         {
           "title": "Ocean Waves",
-          "video_url": "https://yourcdn.com/videos/ocean.mp4",
-          "thumbnail": "https://i.imgur.com/U3c1dWo.jpeg"
-        }
-      ]
-    },
-
-    {
-      "name": "Meditation",
-      "thumbnail": "https://i.imgur.com/rZ6Fw1y.jpeg",
-      "videos": [
-        {
-          "title": "Deep Meditation 1H",
-          "video_url": "https://yourcdn.com/videos/meditation1.mp4",
-          "thumbnail": "https://i.imgur.com/Vod1qJ4.jpeg"
+          "video_url": "https://cdn.example.com/ocean.mp4",
+          "thumbnail": "https://i.imgur.com/rZ6Fw1y.jpeg",
+          "loop": true
         }
       ]
     }
