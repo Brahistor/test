@@ -12,9 +12,11 @@
     "ads": {
       "showAds": true,
       "clicksBeforeInterstitial": 2,
+      "autoShowIntervalSeconds": 150,
 
       "iron": {
         "appKey": "YOUR_IRONSOURCE_KEY",
+        "userId": "",
         "enableRV": true,
         "enableIS": true,
         "enableBN": true
@@ -37,12 +39,17 @@
   "groups": {
     "mobile": {
       "theme_color": "#222222",
-      "ads": { "showAds": true, "clicksBeforeInterstitial": 3 }
+      "ads": {
+        "showAds": true,
+        "clicksBeforeInterstitial": 3
+      }
     },
 
     "tablet": {
       "theme_color": "#333333",
-      "ads": { "banner": { "size": "LARGE" } }
+      "ads": {
+        "banner": { "size": "LARGE" }
+      }
     },
 
     "tv": {
