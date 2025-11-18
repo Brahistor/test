@@ -1,41 +1,23 @@
 {
-  "meta": {
-    "version": 1,
-    "last_update": "2025-01-25",
-    "author": "RelaxApp Studio"
-  },
+  "general": {
+    "app_name": "FireTV Screensaver",
+    "theme_color": "#111111",
 
-  "app": {
-    "name": "Relax Screensaver",
-    "theme": {
-      "color_primary": "#000000",
-      "color_secondary": "#202020",
-      "accent": "#FF9800"
-    }
-  },
+    "buttons": {
+      "rate_url": "https://google.com",
+      "share_text": "Check this app!",
+      "more_apps_url": "https://myapps.com"
+    },
 
-  "features": {
-    "ads_enabled": true,
-    "iap_enabled": false,
-    "screensaver_enabled": true
-  },
-
-  "onesignal": {
-    "enabled": true,
-    "app_id": "YOUR_ONESIGNAL_APP_ID"
-  },
-
-  "ads": {
-    "general": {
+    "ads": {
       "showAds": true,
-      "clicksBeforeInterstitial": 3,
+      "clicksBeforeInterstitial": 2,
 
       "iron": {
-        "appKey": "IRON_SOURCE_APP_KEY",
-        "enableBN": true,
-        "enableIS": true,
+        "appKey": "YOUR_IRONSOURCE_KEY",
         "enableRV": true,
-        "userId": "default_user"
+        "enableIS": true,
+        "enableBN": true
       },
 
       "banner": {
@@ -46,85 +28,42 @@
 
       "units": {
         "interstitialPlacement": "DefaultInterstitial",
-        "rewardedPlacement": "DefaultRewardedVideo",
+        "rewardedPlacement": "DefaultReward",
         "bannerPlacement": "DefaultBanner"
-      }
-    },
-
-    "mobile": {
-      "clicksBeforeInterstitial": 4,
-      "banner": {
-        "size": "SMART",
-        "position": "BOTTOM"
-      }
-    },
-
-    "tablet": {
-      "clicksBeforeInterstitial": 3,
-      "banner": {
-        "size": "LARGE",
-        "position": "BOTTOM"
-      }
-    },
-
-    "tv": {
-      "clicksBeforeInterstitial": 2,
-      "banner": {
-        "size": "LARGE",
-        "position": "TOP"
-      }
-    },
-
-    "firetv": {
-      "clicksBeforeInterstitial": 2,
-      "banner": {
-        "size": "LARGE",
-        "position": "TOP"
       }
     }
   },
 
-  "buttons": {
-    "share_text": "🔥 Relax with this amazing screensaver!",
-    "rate_url": "https://store.com/app/rate",
-    "more_apps_url": "https://store.com/apps"
+  "groups": {
+    "mobile": {
+      "theme_color": "#222222",
+      "ads": { "showAds": true, "clicksBeforeInterstitial": 3 }
+    },
+
+    "tablet": {
+      "theme_color": "#333333",
+      "ads": { "banner": { "size": "LARGE" } }
+    },
+
+    "tv": {
+      "theme_color": "#000000",
+      "ads": {
+        "banner": {
+          "position": "TOP",
+          "size": "SMART"
+        }
+      }
+    }
   },
 
   "categories": [
     {
       "name": "Fireplace",
-      "thumbnail": "https://i.imgur.com/L8D3S48.jpeg",
       "videos": [
         {
-          "title": "Fireplace HD – 1 Hour",
-          "video_url": "https://cdn.example.com/fire1.mp4",
-          "thumbnail": "https://i.imgur.com/LPZPThy.jpeg",
-          "loop": true
-        },
-        {
-          "title": "Cozy Fireplace",
-          "video_url": "https://cdn.example.com/fire2.mp4",
-          "thumbnail": "https://i.imgur.com/rZ6Fw1y.jpeg",
-          "loop": true
-        }
-      ]
-    },
-
-    {
-      "name": "Nature",
-      "thumbnail": "https://i.imgur.com/U3c1dWo.jpeg",
-      "videos": [
-        {
-          "title": "Rain & Thunder",
-          "video_url": "https://cdn.example.com/rain.mp4",
-          "thumbnail": "https://i.imgur.com/Vod1qJ4.jpeg",
-          "loop": true
-        },
-        {
-          "title": "Ocean Waves",
-          "video_url": "https://cdn.example.com/ocean.mp4",
-          "thumbnail": "https://i.imgur.com/rZ6Fw1y.jpeg",
-          "loop": true
+          "title": "Fireplace HD",
+          "thumbnail": "https://i.imgur.com/k3SmG.jpg",
+          "video_url": "https://video-previews.elements.envatousercontent.com/h264-video-previews/17e6ad7a-0ae2-475f-beeb-ebf40b4bf79a/9589416.mp4"
         }
       ]
     }
