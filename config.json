@@ -2,11 +2,13 @@
   "general": {
     "app_name": "FireTV Screensaver",
     "theme_color": "#111111",
+    "onesignal_app_id": "YOUR_ONESIGNAL_APP_ID",
 
     "buttons": {
       "rate_url": "https://google.com",
       "share_text": "Check this app!",
-      "more_apps_url": "https://myapps.com"
+      "more_apps_url": "https://myapps.com",
+      "show_remove_ads_button": true
     },
 
     "ads": {
@@ -44,14 +46,14 @@
         "clicksBeforeInterstitial": 3
       }
     },
-
     "tablet": {
       "theme_color": "#333333",
       "ads": {
-        "banner": { "size": "LARGE" }
+        "banner": {
+          "size": "LARGE"
+        }
       }
     },
-
     "tv": {
       "theme_color": "#000000",
       "ads": {
@@ -68,9 +70,89 @@
       "name": "Fireplace",
       "videos": [
         {
-          "title": "Fireplace HD",
-          "thumbnail": "https://i.pinimg.com/736x/98/91/2c/98912c4c72c8d04b8455b49ba6277c1c.jpg",
-          "video_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          "title": "Fireplace 1",
+          "thumbnail": "https://i.imgur.com/fireplace1.jpg",
+          "video_url": "https://example.com/fireplace1.mp4"
+        },
+        {
+          "title": "Fireplace 2",
+          "thumbnail": "https://i.imgur.com/fireplace2.jpg",
+          "video_url": "https://example.com/fireplace2.mp4"
+        },
+        {
+          "title": "Fireplace 3",
+          "thumbnail": "https://i.imgur.com/fireplace3.jpg",
+          "video_url": "https://example.com/fireplace3.mp4"
+        },
+        {
+          "title": "Fireplace 4",
+          "thumbnail": "https://i.imgur.com/fireplace4.jpg",
+          "video_url": "https://example.com/fireplace4.mp4"
+        },
+        {
+          "title": "Fireplace 5",
+          "thumbnail": "https://i.imgur.com/fireplace5.jpg",
+          "video_url": "https://example.com/fireplace5.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Ocean",
+      "videos": [
+        {
+          "title": "Ocean 1",
+          "thumbnail": "https://i.imgur.com/ocean1.jpg",
+          "video_url": "https://example.com/ocean1.mp4"
+        },
+        {
+          "title": "Ocean 2",
+          "thumbnail": "https://i.imgur.com/ocean2.jpg",
+          "video_url": "https://example.com/ocean2.mp4"
+        },
+        {
+          "title": "Ocean 3",
+          "thumbnail": "https://i.imgur.com/ocean3.jpg",
+          "video_url": "https://example.com/ocean3.mp4"
+        },
+        {
+          "title": "Ocean 4",
+          "thumbnail": "https://i.imgur.com/ocean4.jpg",
+          "video_url": "https://example.com/ocean4.mp4"
+        },
+        {
+          "title": "Ocean 5",
+          "thumbnail": "https://i.imgur.com/ocean5.jpg",
+          "video_url": "https://example.com/ocean5.mp4"
+        }
+      ]
+    },
+    {
+      "name": "Rain",
+      "videos": [
+        {
+          "title": "Rain 1",
+          "thumbnail": "https://i.imgur.com/rain1.jpg",
+          "video_url": "https://example.com/rain1.mp4"
+        },
+        {
+          "title": "Rain 2",
+          "thumbnail": "https://i.imgur.com/rain2.jpg",
+          "video_url": "https://example.com/rain2.mp4"
+        },
+        {
+          "title": "Rain 3",
+          "thumbnail": "https://i.imgur.com/rain3.jpg",
+          "video_url": "https://example.com/rain3.mp4"
+        },
+        {
+          "title": "Rain 4",
+          "thumbnail": "https://i.imgur.com/rain4.jpg",
+          "video_url": "https://example.com/rain4.mp4"
+        },
+        {
+          "title": "Rain 5",
+          "thumbnail": "https://i.imgur.com/rain5.jpg",
+          "video_url": "https://example.com/rain5.mp4"
         }
       ]
     }
