@@ -2,7 +2,8 @@
   "general": {
     "app_name": "FireTV Screensaver",
     "theme_color": "#111111",
-    "onesignal_app_id": "YOUR_ONESIGNAL_APP_ID",
+    "onesignal_app_id": "e7d60daf-9df5-4a7a-ba97-e157717ade29",
+    "sku_remove_ads": "remove_ads"
 
     "buttons": {
       "rate_url": "https://google.com",
