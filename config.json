@@ -15,7 +15,7 @@
       "autoShowIntervalSeconds": 150,
 
       "iron": {
-        "appKey": "YOUR_IRONSOURCE_KEY",
+        "appKey": "2452da7d5",
         "userId": "",
         "enableRV": true,
         "enableIS": true,
