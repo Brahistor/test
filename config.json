@@ -3,20 +3,17 @@
     "app_name": "FireTV Screensaver",
     "theme_color": "#111111",
     "onesignal_app_id": "e7d60daf-9df5-4a7a-ba97-e157717ade29",
-    "sku_remove_ads": "remove_ads"
-
+    "sku_remove_ads": "remove_ads",
     "buttons": {
       "rate_url": "https://google.com",
       "share_text": "Check this app!",
       "more_apps_url": "https://myapps.com",
       "show_remove_ads_button": true
     },
-
     "ads": {
       "showAds": true,
       "clicksBeforeInterstitial": 2,
       "autoShowIntervalSeconds": 150,
-
       "iron": {
         "appKey": "2452da7d5",
         "userId": "",
@@ -24,13 +21,11 @@
         "enableIS": true,
         "enableBN": true
       },
-
       "banner": {
         "size": "BANNER",
         "position": "BOTTOM",
         "autoLoad": true
       },
-
       "units": {
         "interstitialPlacement": "DefaultInterstitial",
         "rewardedPlacement": "DefaultReward",
@@ -38,7 +33,6 @@
       }
     }
   },
-
   "groups": {
     "mobile": {
       "theme_color": "#222222",
@@ -65,7 +59,6 @@
       }
     }
   },
-
   "categories": [
     {
       "name": "Fireplace",
