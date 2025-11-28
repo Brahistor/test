@@ -13,7 +13,7 @@
     "ads": {
       "showAds": true,
       "clicksBeforeInterstitial": 2,
-      "autoShowIntervalSeconds": 150,
+      "autoShowIntervalSeconds": 20,
       "iron": {
         "appKey": "2452da7d5",
         "userId": "",
@@ -70,23 +70,23 @@
         },
         {
           "title": "Fireplace 2",
-          "thumbnail": "https://i.imgur.com/fireplace2.jpg",
+          "thumbnail": "https://cdn.coverr.co/videos/coverr-blue-fire-6189/thumbnail?width=520",
           "video_url": "https://video-previews.elements.envatousercontent.com/6c7d4e3b-25bf-4080-aa5e-465681689f7f/watermarked_preview/watermarked_preview.mp4"
         },
         {
           "title": "Fireplace 3",
-          "thumbnail": "https://i.imgur.com/fireplace3.jpg",
+          "thumbnail": "https://cdn.coverr.co/videos/coverr-blue-fire-6189/thumbnail?width=520",
           "video_url": "https://assets.mixkit.co/videos/2732/2732-720.mp4"
         },
         {
           "title": "Fireplace 4",
-          "thumbnail": "https://i.imgur.com/fireplace4.jpg",
-          "video_url": "https://example.com/fireplace4.mp4"
+          "thumbnail": "https://cdn.coverr.co/videos/coverr-blue-fire-6189/thumbnail?width=520",
+          "video_url": "https://media.istockphoto.com/id/2172386059/video/wood-logs-burning-in-a-cozy-fireplace-at-home-christmas-winter-holiday.mp4?s=mp4-640x640-is&k=20&c=P44r01C0oUPr9xNA_HGLKMP_fzcgEP24kRgrZu6HNNw="
         },
         {
           "title": "Fireplace 5",
-          "thumbnail": "https://i.imgur.com/fireplace5.jpg",
-          "video_url": "https://example.com/fireplace5.mp4"
+          "thumbnail": "https://cdn.coverr.co/videos/coverr-blue-fire-6189/thumbnail?width=520",
+          "video_url": "https://www.youtube.com/watch?v=L_LUpnjgPso"
         }
       ]
     },
@@ -95,13 +95,13 @@
       "videos": [
         {
           "title": "Ocean 1",
-          "thumbnail": "https://i.imgur.com/ocean1.jpg",
-          "video_url": "https://example.com/ocean1.mp4"
+          "thumbnail": "https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=1024x1024&w=is&k=20&c=9Qfj9S124ojed7s4OWu3a3vbbMC76QYkqczg4L4M-Sc=",
+          "video_url": "https://cdn.pixabay.com/video/2023/04/28/160767-822213540_large.mp4"
         },
         {
           "title": "Ocean 2",
-          "thumbnail": "https://i.imgur.com/ocean2.jpg",
-          "video_url": "https://example.com/ocean2.mp4"
+          "thumbnail": "https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=1024x1024&w=is&k=20&c=9Qfj9S124ojed7s4OWu3a3vbbMC76QYkqczg4L4M-Sc=",
+          "video_url": "https://cms-public-artifacts.motionarray.com/content/motion-array/2961106/PRD-2961106-GZGIosEHi6IIz0zW-original_playlist_1730986703.m3u8
         },
         {
           "title": "Ocean 3",
