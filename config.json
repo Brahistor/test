@@ -13,7 +13,7 @@
     "ads": {
       "showAds": true,
       "clicksBeforeInterstitial": 2,
-      "autoShowIntervalSeconds": 20,
+      "autoShowIntervalSeconds": 50,
       "iron": {
         "appKey": "2452da7d5",
         "userId": "",
@@ -86,7 +86,7 @@
         {
           "title": "Fireplace 5",
           "thumbnail": "https://cdn.coverr.co/videos/coverr-blue-fire-6189/thumbnail?width=520",
-          "video_url": "https://www.youtube.com/watch?v=L_LUpnjgPso"
+          "video_url": "https://assets.mixkit.co/videos/2732/2732-720.mp4"
         }
       ]
     },
@@ -101,7 +101,7 @@
         {
           "title": "Ocean 2",
           "thumbnail": "https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=1024x1024&w=is&k=20&c=9Qfj9S124ojed7s4OWu3a3vbbMC76QYkqczg4L4M-Sc=",
-          "video_url": "https://cms-public-artifacts.motionarray.com/content/motion-array/2961106/PRD-2961106-GZGIosEHi6IIz0zW-original_playlist_1730986703.m3u8
+          "video_url": "https://cms-public-artifacts.motionarray.com/content/motion-array/2961106/PRD-2961106-GZGIosEHi6IIz0zW-original_playlist_1730986703.m3u8"
         },
         {
           "title": "Ocean 3",
