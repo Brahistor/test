@@ -12,8 +12,8 @@
     },
     "ads": {
       "showAds": true,
-      "clicksBeforeInterstitial": 2,
-      "autoShowIntervalSeconds": 50,
+      "clicksBeforeInterstitial": 1,
+      "autoShowIntervalSeconds": 5,
       "iron": {
         "appKey": "2452da7d5",
         "userId": "",
