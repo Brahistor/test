@@ -11,8 +11,8 @@
     },
     "ads": {
       "showAds": true,
-      "clicksBeforeInterstitial": 3,
-      "autoShowIntervalSeconds": 0,
+      "clicksBeforeInterstitial": 1,
+      "autoShowIntervalSeconds": 10,
       "banner": {
         "enabled": true,
         "size": "BANNER",
@@ -50,8 +50,8 @@
     "tv": {
       "theme_color": "#000000",
       "ads": {
-        "clicksBeforeInterstitial": 5,
-        "autoShowIntervalSeconds": 0,
+        "clicksBeforeInterstitial": 1,
+        "autoShowIntervalSeconds": 10,
         "banner": { "enabled": false, "autoLoad": false },
 
         "pangle": { "enabled": false }
@@ -61,14 +61,14 @@
     "tablet": {
       "theme_color": "#222222",
       "ads": {
-        "clicksBeforeInterstitial": 3,
+        "clicksBeforeInterstitial": 1,
         "banner": { "enabled": true, "size": "BANNER", "position": "BOTTOM" }
       }
     },
 
     "mobile": {
       "theme_color": "#333333",
-      "ads": { "clicksBeforeInterstitial": 3 }
+      "ads": { "clicksBeforeInterstitial": 1 }
     }
   },
 
