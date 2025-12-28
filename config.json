@@ -11,8 +11,9 @@
     },
     "ads": {
       "showAds": true,
-      "clicksBeforeInterstitial": 3,
+      "clicksBeforeInterstitial": 1,
       "autoShowIntervalSeconds": 0,
+
       "banner": {
         "enabled": true,
         "size": "BANNER",
@@ -20,19 +21,21 @@
         "autoLoad": true,
         "disableOnTv": true
       },
-     "mintegral": {
-  "enabled": true,
-  "appId": "144002",
-  "appKey": "7c22942b749fe6a6e361b675e96b3ee9",
-  "units": {
-    "banner": "1010694",
-    "bannerUnit": "2677210",
-    "interstitial": "290653",
-    "interstitialUnit": "462374",
-    "rewarded": "290651",
-    "rewardedUnit": "462372"
-  }
+
+      "mintegral": {
+        "enabled": true,
+        "appId": "144002",
+        "appKey": "7c22942b749fe6a6e361b675e96b3ee9",
+        "units": {
+          "banner": "1010694",
+          "bannerUnit": "2677210",
+          "interstitial": "290653",
+          "interstitialUnit": "462374",
+          "rewarded": "290651",
+          "rewardedUnit": "462372"
+        }
       },
+
       "pangle": {
         "enabled": true,
         "appId": "8759930",
@@ -41,6 +44,7 @@
           "rewarded": "982671797"
         }
       },
+
       "interstitialOrder": ["mintegral", "pangle"],
       "rewardedOrder": ["mintegral", "pangle"]
     }
@@ -50,25 +54,21 @@
     "tv": {
       "theme_color": "#000000",
       "ads": {
-        "clicksBeforeInterstitial": 5,
-        "autoShowIntervalSeconds": 0,
         "banner": { "enabled": false, "autoLoad": false },
-
         "pangle": { "enabled": false }
       }
     },
-
     "tablet": {
       "theme_color": "#222222",
       "ads": {
-        "clicksBeforeInterstitial": 2,
         "banner": { "enabled": true, "size": "BANNER", "position": "BOTTOM" }
       }
     },
-
     "mobile": {
       "theme_color": "#333333",
-      "ads": { "clicksBeforeInterstitial": 1 }
+      "ads": {
+        "clicksBeforeInterstitial": 1
+      }
     }
   },
 
@@ -79,7 +79,7 @@
         {
           "title": "Fireplace 1",
           "thumbnail": "https://cdn.coverr.co/videos/coverr-blue-fire-6189/thumbnail?width=520",
-          "video_url": "https://video-previews.elements.envatousercontent.com/6c7d4e3b-25bf-4080-aa5e-465681689f7f/watermarked_preview/watermarked_preview.mp4",
+          "video_url": "https://assets.mixkit.co/videos/preview/mixkit-fire-burning-in-the-forest-at-night-12548-large.mp4",
           "loop": true
         }
       ]
