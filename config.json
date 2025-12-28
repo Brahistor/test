@@ -20,18 +20,19 @@
         "autoLoad": true,
         "disableOnTv": true
       },
-      "mintegral": {
-        "enabled": true,
-        "appId": "440390",
-        "appKey": "1830ca60e9705834759abc6bbe80a5a5",
-        "units": {
-          "banner": "3212959",
-          "bannerUnit": "5487456",
-          "interstitial": "3212961",
-          "interstitialUnit": "5487458",
-          "rewarded": "3212963",
-          "rewardedUnit": "5487460"
-        }
+     "mintegral": {
+  "enabled": true,
+  "appId": "144002",
+  "appKey": "7c22942b749fe6a6e361b675e96b3ee9",
+  "units": {
+    "banner": "1010694",
+    "bannerUnit": "2677210",
+    "interstitial": "290653",
+    "interstitialUnit": "462374",
+    "rewarded": "290651",
+    "rewardedUnit": "462372"
+  }
+}
       },
       "pangle": {
         "enabled": true,
