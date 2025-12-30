@@ -3,15 +3,17 @@
     "app_name": "FireTV Screensaver",
     "theme_color": "#111111",
     "sku_remove_ads": "remove_ads",
+
     "buttons": {
       "rate_url": "https://example.com",
       "share_text": "Check this app!",
       "more_apps_url": "https://example.com",
       "show_remove_ads_button": true
     },
+
     "ads": {
       "showAds": true,
-      "clicksBeforeInterstitial": 1,
+      "clicksBeforeInterstitial": 2,
       "autoShowIntervalSeconds": 0,
 
       "banner": {
@@ -24,6 +26,7 @@
 
       "mintegral": {
         "enabled": true,
+        "testMode": true,
         "appId": "144002",
         "appKey": "7c22942b749fe6a6e361b675e96b3ee9",
         "units": {
@@ -34,19 +37,7 @@
           "rewarded": "290651",
           "rewardedUnit": "462372"
         }
-      },
-
-      "pangle": {
-        "enabled": true,
-        "appId": "8759930",
-        "units": {
-          "interstitial": "982671733",
-          "rewarded": "982671797"
-        }
-      },
-
-      "interstitialOrder": ["mintegral", "pangle"],
-      "rewardedOrder": ["mintegral", "pangle"]
+      }
     }
   },
 
@@ -55,19 +46,22 @@
       "theme_color": "#000000",
       "ads": {
         "banner": { "enabled": false, "autoLoad": false },
-        "pangle": { "enabled": false }
+        "clicksBeforeInterstitial": 1,
+        "autoShowIntervalSeconds": 0
       }
     },
+
     "tablet": {
       "theme_color": "#222222",
       "ads": {
         "banner": { "enabled": true, "size": "BANNER", "position": "BOTTOM" }
       }
     },
+
     "mobile": {
       "theme_color": "#333333",
       "ads": {
-        "clicksBeforeInterstitial": 1
+        "clicksBeforeInterstitial": 2
       }
     }
   },
