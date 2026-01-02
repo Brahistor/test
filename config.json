@@ -1,20 +1,75 @@
 {
+  "schema_version": 1,
+  "config_version": 12,
+  "updated_at": "2026-01-02T00:00:00Z",
+
+  "remote": {
+    "url": "https://brahistor.github.io/test/config.json",
+    "cache_ttl_seconds": 3600,
+    "connect_timeout_ms": 8000,
+    "read_timeout_ms": 8000,
+    "fail_open_defaults": true
+  },
+
   "general": {
     "app_name": "FireTV Screensaver",
     "theme_color": "#111111",
-    "sku_remove_ads": "remove_ads",
 
     "buttons": {
       "rate_url": "https://example.com",
       "share_text": "Check this app!",
       "more_apps_url": "https://example.com",
-      "show_remove_ads_button": true
+      "show_remove_ads_button": true,
+      "show_premium_button": true
+    },
+
+    "features": {
+      "enable_onesignal": false,
+      "enable_iap": true,
+      "enable_ads": true,
+      "enable_test_ads_button": false,
+      "enable_debug_logs": false
+    },
+
+    "onesignal": {
+      "enabled": false,
+      "app_id": ""
+    },
+
+    "iap": {
+      "enabled": true,
+
+      "premium_mode": "no_ads_no_sdk",
+      "premium_entitlement_key": "premium_active",
+
+      "lifetime": {
+        "enabled": true,
+        "sku": "remove_ads",
+        "title": "Lifetime Premium"
+      },
+
+      "subscriptions": {
+        "enabled": false,
+        "skus": {
+          "1m": "premium_1m",
+          "3m": "premium_3m",
+          "6m": "premium_6m",
+          "12m": "premium_12m"
+        }
+      }
     },
 
     "ads": {
       "showAds": true,
+
       "clicksBeforeInterstitial": 2,
       "autoShowIntervalSeconds": 0,
+
+      "frequency": {
+        "min_seconds_between_interstitials": 45,
+        "max_interstitials_per_hour": 6,
+        "show_interstitial_before_video": true
+      },
 
       "banner": {
         "enabled": true,
@@ -27,8 +82,10 @@
       "mintegral": {
         "enabled": true,
         "testMode": true,
+
         "appId": "144002",
         "appKey": "7c22942b749fe6a6e361b675e96b3ee9",
+
         "units": {
           "banner": "1010694",
           "bannerUnit": "2677210",
@@ -43,25 +100,42 @@
 
   "groups": {
     "tv": {
+      "device_rules": {
+        "prefer_no_banner": true,
+        "prefer_no_rewarded": true
+      },
       "theme_color": "#000000",
       "ads": {
         "banner": { "enabled": false, "autoLoad": false },
         "clicksBeforeInterstitial": 1,
-        "autoShowIntervalSeconds": 0
+        "autoShowIntervalSeconds": 0,
+        "frequency": {
+          "min_seconds_between_interstitials": 90,
+          "max_interstitials_per_hour": 3,
+          "show_interstitial_before_video": true
+        }
       }
     },
 
     "tablet": {
       "theme_color": "#222222",
       "ads": {
-        "banner": { "enabled": true, "size": "BANNER", "position": "BOTTOM" }
+        "banner": { "enabled": true, "size": "BANNER", "position": "BOTTOM" },
+        "frequency": {
+          "min_seconds_between_interstitials": 60,
+          "max_interstitials_per_hour": 5
+        }
       }
     },
 
     "mobile": {
       "theme_color": "#333333",
       "ads": {
-        "clicksBeforeInterstitial": 2
+        "clicksBeforeInterstitial": 2,
+        "frequency": {
+          "min_seconds_between_interstitials": 45,
+          "max_interstitials_per_hour": 6
+        }
       }
     }
   },
