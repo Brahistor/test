@@ -2,7 +2,7 @@
   "general": {
     "remote_config_version": 1,
 
-    "app_name": "FireTV Screensaver",
+    "app_name": "FireScape",
     "theme_color": "#111111",
 
     "buttons": {
@@ -80,17 +80,203 @@
     }
   },
 
-  "categories": [
-    {
-      "name": "Fireplace",
-      "videos": [
-        {
-          "title": "Fireplace 1",
-          "thumbnail": "https://cdn.coverr.co/videos/coverr-blue-fire-6189/thumbnail?width=520",
-          "video_url": "https://video-previews.elements.envatousercontent.com/6c7d4e3b-25bf-4080-aa5e-465681689f7f/watermarked_preview/watermarked_preview.mp4",
-          "loop": true
-        }
-      ]
-    }
-  ]
-}
+ "categories": [
+  {
+    "name": "Fireplace",
+    "videos": [
+      {
+        "title": "Fireplace 1",
+        "thumbnail": "https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+        "video_url": "https://streamable.com/qomusv",
+        "loop": true
+      },
+      {
+        "title": "Fireplace 2",
+        "thumbnail": "https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+        "video_url": "https://streamable.com/r6u9s8",
+        "loop": true
+      },
+      {
+        "title": "Fireplace 3",
+        "thumbnail": "https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+        "video_url": "https://streamable.com/957fjr",
+        "loop": true
+      },
+      {
+        "title": "Fireplace 4",
+        "thumbnail": "https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+        "video_url": "https://vimeo.com/1154836471?fl=pl&fe=cm",
+        "loop": true
+      },
+      {
+        "title": "Fireplace 5",
+        "thumbnail": "https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+        "video_url": "https://vimeo.com/1154835114?fl=tl&fe=ec",
+        "loop": true
+      },
+      {
+        "title": "Fireplace 6",
+        "thumbnail": "https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+        "video_url": "https://archive.org/details/xmas-yule-log",
+        "loop": true
+      },
+      {
+        "title": "Fireplace 7",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-cozy-fire-8574/thumbnail?width=520",
+        "video_url": "https://archive.org/details/1-hour-cozy-fire-crackling-fireplace-320",
+        "loop": true
+      },
+      {
+        "title": "Fireplace 8",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-fireplace-close-up-4896/thumbnail?width=520",
+        "video_url": "https://archive.org/details/hctvmn-Happy_Holidays_from_Hastings_Community_TV",
+        "loop": true
+      },
+      {
+        "title": "Fireplace 9",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-burning-fire-9203/thumbnail?width=520",
+        "video_url": "https://example.com/videos/fireplace9.mp4",
+        "loop": true
+      },
+      {
+        "title": "Fireplace 10",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-warm-fireplace-7345/thumbnail?width=520",
+        "video_url": "https://example.com/videos/fireplace10.mp4",
+        "loop": true
+      }
+    ]
+  },
+
+  {
+    "name": "Nature Ambience",
+    "videos": [
+      {
+        "title": "Rain Forest",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-rain-in-the-forest-1570/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature1.mp4",
+        "loop": true
+      },
+      {
+        "title": "Ocean Waves",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-ocean-waves-1591/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature2.mp4",
+        "loop": true
+      },
+      {
+        "title": "Mountain Wind",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-mountain-landscape-9156/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature3.mp4",
+        "loop": true
+      },
+      {
+        "title": "Waterfall",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-waterfall-in-forest-9714/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature4.mp4",
+        "loop": true
+      },
+      {
+        "title": "River Flow",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-flowing-river-9716/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature5.mp4",
+        "loop": true
+      },
+      {
+        "title": "Snow Forest",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-snowy-forest-6223/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature6.mp4",
+        "loop": true
+      },
+      {
+        "title": "Lake Sunset",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-lake-at-sunset-1589/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature7.mp4",
+        "loop": true
+      },
+      {
+        "title": "Morning Fog",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-foggy-morning-9154/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature8.mp4",
+        "loop": true
+      },
+      {
+        "title": "Night Forest",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-night-forest-6219/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature9.mp4",
+        "loop": true
+      },
+      {
+        "title": "Autumn Trees",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-autumn-forest-1586/thumbnail?width=520",
+        "video_url": "https://example.com/videos/nature10.mp4",
+        "loop": true
+      }
+    ]
+  },
+
+  {
+    "name": "Night & City",
+    "videos": [
+      {
+        "title": "City Rain",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-rainy-city-night-9711/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city1.mp4",
+        "loop": true
+      },
+      {
+        "title": "Neon Streets",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-neon-city-night-9151/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city2.mp4",
+        "loop": true
+      },
+      {
+        "title": "City Timelapse",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-city-timelapse-1583/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city3.mp4",
+        "loop": true
+      },
+      {
+        "title": "Night Traffic",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-night-traffic-9149/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city4.mp4",
+        "loop": true
+      },
+      {
+        "title": "City Fog",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-foggy-city-9147/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city5.mp4",
+        "loop": true
+      },
+      {
+        "title": "Skyscrapers",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-city-skyscrapers-1579/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city6.mp4",
+        "loop": true
+      },
+      {
+        "title": "Urban Lights",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-city-lights-night-9145/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city7.mp4",
+        "loop": true
+      },
+      {
+        "title": "Night Drive",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-night-drive-1577/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city8.mp4",
+        "loop": true
+      },
+      {
+        "title": "City Skyline",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-city-skyline-night-9143/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city9.mp4",
+        "loop": true
+      },
+      {
+        "title": "Urban Rain",
+        "thumbnail": "https://cdn.coverr.co/videos/coverr-urban-rain-night-9141/thumbnail?width=520",
+        "video_url": "https://example.com/videos/city10.mp4",
+        "loop": true
+      }
+    ]
+  }
+]
+
