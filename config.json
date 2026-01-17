@@ -24,8 +24,8 @@
          }
       },
       "ads":{
-         "showAds":true,
-         "clicksBeforeInterstitial":2,
+         "showAds":false,
+         "clicksBeforeInterstitial":,
          "autoShowIntervalSeconds":0,
          "banner":{
             "enabled":true,
@@ -35,8 +35,8 @@
             "disableOnTv":true
          },
          "mintegral":{
-            "enabled":true,
-            "testMode":true,
+            "enabled":false,
+            "testMode":false,
             "appId":"144002",
             "appKey":"7c22942b749fe6a6e361b675e96b3ee9",
             "units":{
@@ -58,7 +58,7 @@
                "enabled":false,
                "autoLoad":false
             },
-            "clicksBeforeInterstitial":1,
+            "clicksBeforeInterstitial":9000,
             "autoShowIntervalSeconds":0
          }
       },
@@ -75,7 +75,7 @@
       "mobile":{
          "theme_color":"#333333",
          "ads":{
-            "clicksBeforeInterstitial":2
+            "clicksBeforeInterstitial":67
          }
       }
    },
