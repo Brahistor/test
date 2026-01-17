@@ -1,4 +1,4 @@
-{
+4{
    "general":{
       "remote_config_version":1,
       "app_name":"FireScape",
@@ -24,7 +24,7 @@
          }
       },
       "ads":{
-         "showAds":false,
+         "showAds":true,
          "clicksBeforeInterstitial":,
          "autoShowIntervalSeconds":0,
          "banner":{
@@ -35,8 +35,8 @@
             "disableOnTv":true
          },
          "mintegral":{
-            "enabled":false,
-            "testMode":false,
+            "enabled":true,
+            "testMode":true,
             "appId":"144002",
             "appKey":"7c22942b749fe6a6e361b675e96b3ee9",
             "units":{
@@ -58,7 +58,7 @@
                "enabled":false,
                "autoLoad":false
             },
-            "clicksBeforeInterstitial":9000,
+            "clicksBeforeInterstitial":60,
             "autoShowIntervalSeconds":0
          }
       },
@@ -75,7 +75,7 @@
       "mobile":{
          "theme_color":"#333333",
          "ads":{
-            "clicksBeforeInterstitial":67
+            "clicksBeforeInterstitial":40
          }
       }
    },
