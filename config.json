@@ -25,7 +25,7 @@
       },
       "ads":{
          "showAds":true,
-         "clicksBeforeInterstitial":,
+         "clicksBeforeInterstitial":null,
          "autoShowIntervalSeconds":0,
          "banner":{
             "enabled":true,
