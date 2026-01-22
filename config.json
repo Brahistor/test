@@ -2,7 +2,7 @@
    "general":{
       "remote_config_version":1,
       "app_name":"FireScape",
-      "theme_color":"#111111",
+      "theme_color":"FF009E",
       "buttons":{
          "rate_url":"https://example.com",
          "share_text":"Check this app!",
@@ -52,7 +52,7 @@
    },
    "groups":{
       "tv":{
-         "theme_color":"#000000",
+         "theme_color":"F518A1",
          "ads":{
             "banner":{
                "enabled":false,
@@ -63,7 +63,7 @@
          }
       },
       "tablet":{
-         "theme_color":"#222222",
+         "theme_color":"F518A1",
          "ads":{
             "banner":{
                "enabled":true,
@@ -73,7 +73,7 @@
          }
       },
       "mobile":{
-         "theme_color":"#333333",
+         "theme_color":"F518A1",
          "ads":{
             "clicksBeforeInterstitial":40
          }
