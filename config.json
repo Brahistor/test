@@ -63,7 +63,7 @@
          }
       },
       "tablet":{
-         "theme_color":"#F518A1",
+         "theme_color":"#F518A2",
          "ads":{
             "banner":{
                "enabled":true,
@@ -85,61 +85,61 @@
          "videos":[
             {
                "title":"Fireplace 1",
-               "thumbnail":"https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/1.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/video.2.mp4",
                "loop":true
             },
             {
                "title":"Fireplace 2",
-               "thumbnail":"https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/2.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/video.3.mp4",
                "loop":true
             },
             {
                "title":"Fireplace 3",
-               "thumbnail":"https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/3.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/video.4.mp4",
                "loop":true
             },
             {
                "title":"Fireplace 4",
-               "thumbnail":"https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/4.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/video1.mp4",
                "loop":true
             },
             {
                "title":"Fireplace 5",
-               "thumbnail":"https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/5.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/video5.mp4",
                "loop":true
             },
             {
                "title":"Fireplace 6",
-               "thumbnail":"https://i.pinimg.com/1200x/c8/ca/c1/c8cac1df153dbbd9ed11a52860906d28.jpg",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/6.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/video6.mp4",
                "loop":true
             },
             {
                "title":"Fireplace 7",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-cozy-fire-8574/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/7.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/video.2.mp4",
                "loop":true
             },
             {
                "title":"Fireplace 8",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-fireplace-close-up-4896/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/8.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/2d6423da5a2731feff8ac6f1a31dee5e.mp4",
                "loop":true
             },
             {
                "title":"Fireplace 9",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-burning-fire-9203/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/9.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/Beautiful.Relaxing.Peaceful.Campfire.with.Relaxing.Nature.Night.Sounds.4K.mp4",
                "loop":true
             },
             {
                "title":"Fireplace 10",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-warm-fireplace-7345/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/10.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/Fireplace.Ambience.With.November.Jazz.Music.Cozy.Fireplace.ASMR.mp4",
                "loop":true
             }
@@ -150,61 +150,61 @@
          "videos":[
             {
                "title":"Rain Forest",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-rain-in-the-forest-1570/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/11.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/pingl.sur.Jack.mp4",
                "loop":true
             },
             {
                "title":"Ocean Waves",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-ocean-waves-1591/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/22.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/Music.for.sleeping.mp4",
                "loop":true
             },
             {
                "title":"Mountain Wind",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-mountain-landscape-9156/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/33.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/Beautiful.Relaxing.Peaceful.Campfire.with.Relaxing.Nature.Night.Sounds.4K.mp4",
                "loop":true
             },
             {
                "title":"Waterfall",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-waterfall-in-forest-9714/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/44.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/Crackling.Fire.With.Rain.Thunderstorm.Sounds.mp4",
                "loop":true
             },
             {
                "title":"River Flow",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-flowing-river-9716/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/55.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/Peaceful.Nature.Piano.Bamboo.Water.Sound.for.Spa.Deep.Sleep.Focu.mp4",
                "loop":true
             },
             {
                "title":"Snow Forest",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-snowy-forest-6223/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/66.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/RELAJACION-.Musica.para.descansar.la.Mente.y.Activar.el.Sueno.B.mp4",
                "loop":true
             },
             {
                "title":"Lake Sunset",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-lake-at-sunset-1589/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/77.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/Relaxing.Sleep.Music.Deep.Sleeping.Music.Relaxing.Music.Stress.R.mp4",
                "loop":true
             },
             {
                "title":"Morning Fog",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-foggy-morning-9154/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/88.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/16c4695b5f955cc582e86957f4714b6b.mp4",
                "loop":true
             },
             {
                "title":"Night Forest",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-night-forest-6219/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/99.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/2c12e265d82181e290914eed5df4054c.mp4",
                "loop":true
             },
             {
                "title":"Autumn Trees",
-               "thumbnail":"https://cdn.coverr.co/videos/coverr-autumn-forest-1586/thumbnail?width=520",
+               "thumbnail":"https://github.com/brahim1994/vid/releases/download/v1/100.png",
                "video_url":"https://github.com/brahim1994/vid/releases/download/v1/4df004feac2cc9a9e310f2cfbbfbae13.mp4",
                "loop":true
             }
