@@ -10,19 +10,19 @@
          "show_remove_ads_button":true,
          "show_premium_button":true
       },
-      "iap":{
-         "enabled":true,
-         "lifetimeSku":"remove_ads",
-         "subscriptions":{
-            "enabled":true,
-            "skus":{
-               "1m":"premium_1m",
-               "3m":"premium_3m",
-               "6m":"premium_6m",
-               "12m":"premium_12m"
-            }
-         }
-      },
+     "iap": {
+  "enabled": true,
+  "lifetimeSku": "com.firetv.screensaver.remove_ads",
+  "subscriptions": {
+    "enabled": true,
+    "skus": {
+      "1m": "com.firetv.screensaver.premium_1m",
+      "3m": "com.firetv.screensaver.premium_3m",
+      "6m": "com.firetv.screensaver.premium_6m",
+      "12m": "com.firetv.screensaver.premium_12m"
+    }
+  }
+},
       "ads":{
          "showAds":true,
          "clicksBeforeInterstitial":null,
