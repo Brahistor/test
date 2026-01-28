@@ -24,19 +24,19 @@
   }
 },
       "ads":{
-         "showAds":true,
+         "showAds":false,
          "clicksBeforeInterstitial":null,
          "autoShowIntervalSeconds":0,
          "banner":{
-            "enabled":true,
+            "enabled":false,
             "size":"BANNER",
             "position":"BOTTOM",
             "autoLoad":true,
             "disableOnTv":true
          },
          "mintegral":{
-            "enabled":true,
-            "testMode":true,
+            "enabled":false,
+            "testMode":false,
             "appId":"144002",
             "appKey":"7c22942b749fe6a6e361b675e96b3ee9",
             "units":{
