@@ -11,10 +11,10 @@
          "show_premium_button":true
       },
      "iap": {
-  "enabled": true,
+  "enabled": false,
   "lifetimeSku": "com.firetv.screensaver.remove_ads",
   "subscriptions": {
-    "enabled": true,
+    "enabled": false,
     "skus": {
       "1m": "com.firetv.screensaver.premium_1m",
       "3m": "com.firetv.screensaver.premium_3m",
