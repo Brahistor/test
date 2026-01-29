@@ -11,24 +11,24 @@
          "show_premium_button":true
       },
      "iap": {
-  "enabled": false,
+  "enabled": true,
   "lifetimeSku": "com.firetv.screensaver.remove_ads",
   "subscriptions": {
-    "enabled": false,
+    "enabled": true,
     "skus": {
-      "1m": "com.firetv.screensaver.premium_1m",
-      "3m": "com.firetv.screensaver.premium_3m",
-      "6m": "com.firetv.screensaver.premium_6m",
+      "1m": "com.firetv.screensaver.premium_111m",
+      "3m": "com.firetv.screensaver.premium_33m",
+      "6m": "com.firetv.screensaver.premium_66m",
       "12m": "com.firetv.screensaver.premium_12m"
     }
   }
 },
       "ads":{
-         "showAds":false,
+         "showAds":true,
          "clicksBeforeInterstitial":null,
          "autoShowIntervalSeconds":0,
          "banner":{
-            "enabled":false,
+            "enabled":true,
             "size":"BANNER",
             "position":"BOTTOM",
             "autoLoad":true,
@@ -75,7 +75,7 @@
       "mobile":{
          "theme_color":"#F518A1",
          "ads":{
-            "clicksBeforeInterstitial":40
+            "clicksBeforeInterstitial":5
          }
       }
    },
