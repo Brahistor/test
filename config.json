@@ -58,7 +58,7 @@
                "enabled":false,
                "autoLoad":false
             },
-            "clicksBeforeInterstitial":60,
+            "clicksBeforeInterstitial":5,
             "autoShowIntervalSeconds":0
          }
       },
