@@ -2,11 +2,11 @@
    "general":{
       "remote_config_version":1,
       "app_name":"FireScape",
-      "theme_color":"#F518A1",
+      "theme_color":"#F518A9",
       "buttons":{
-         "rate_url":"https://example.com",
-         "share_text":"Check this app!",
-         "more_apps_url":"https://example.com",
+         "rate_url":"xxxxxxxxxxxxxx",
+         "share_text":"xxxxxxxxxxxxxxx",
+         "more_apps_url":"xxxxxxxxx",
          "show_remove_ads_button":true,
          "show_premium_button":true
       },
@@ -37,15 +37,15 @@
          "mintegral":{
             "enabled":false,
             "testMode":false,
-            "appId":"144002",
-            "appKey":"7c22942b749fe6a6e361b675e96b3ee9",
+            "appId":"440390",
+            "appKey":"1830ca60e9705834759abc6bbe80a5a5",
             "units":{
-               "banner":"1010694",
-               "bannerUnit":"2677210",
-               "interstitial":"290653",
-               "interstitialUnit":"462374",
-               "rewarded":"290651",
-               "rewardedUnit":"462372"
+               "banner":"3212959",
+               "bannerUnit":"5487456",
+               "interstitial":"3212961",
+               "interstitialUnit":"5487458",
+               "rewarded":"3212963",
+               "rewardedUnit":"5487460"
             }
          }
       }
