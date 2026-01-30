@@ -28,10 +28,10 @@
          "clicksBeforeInterstitial":null,
          "autoShowIntervalSeconds":0,
          "banner":{
-            "enabled":true,
+            "enabled":false,
             "size":"BANNER",
             "position":"BOTTOM",
-            "autoLoad":true,
+            "autoLoad":false,
             "disableOnTv":true
          },
          "mintegral":{
