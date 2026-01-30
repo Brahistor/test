@@ -35,7 +35,7 @@
             "disableOnTv":true
          },
          "mintegral":{
-            "enabled":false,
+            "enabled":true,
             "testMode":false,
             "appId":"440390",
             "appKey":"1830ca60e9705834759abc6bbe80a5a5",
